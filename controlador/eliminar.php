@@ -1,5 +1,4 @@
 <?php
-include "modelo/conexion.php";
 
 if (isset($_GET["id"])) {
     $num_boleto = $_GET["id"];

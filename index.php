@@ -125,7 +125,7 @@
                                                     class="btn btn-success btn-sm"><i class="fas fa-pencil-alt"></i>
                                                 </a>
                                                 <a onclick="return eliminar()"
-                                                    href="controlador/eliminar.php?id=<?= htmlspecialchars($datos->num_boleto) ?>"
+                                                    href="index.php?id=<?= htmlspecialchars($datos->num_boleto) ?>"
                                                     class="btn btn-danger btn-sm"><i class="fas fa-trash-alt"></i>
                                                 </a>
                                             
